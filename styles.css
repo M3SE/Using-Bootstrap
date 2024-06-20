@@ -1,0 +1,41 @@
+/* This is the hero styles */
+.hero {
+    position: relative;
+    background: url('images/usgs-hoS3dzgpHzw-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.feature-icon {
+    font-size: 3rem;
+    color: #ff5733; /* Custom color for PixelQuest Studios */
+}
+
+/* This is the cta styles */
+
+#cta p {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+#cta img {
+    display:flex;
+    margin-left: 20%;
+    width: 60%;
+}
